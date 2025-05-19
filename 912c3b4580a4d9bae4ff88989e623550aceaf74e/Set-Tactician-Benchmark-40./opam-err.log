@@ -1,28 +1,2 @@
 [WARNING] /home/brai/.opam exists and is not empty
-[ERROR] The compilation of coq-tactician-stdlib.8.11.dev failed at "make -j9".
-
-#=== ERROR while compiling coq-tactician-stdlib.8.11.dev ======================#
-# context              2.2.1 | linux/x86_64 |  | https://coq.inria.fr/opam/extra-dev#2025-05-18 16:08
-# path                 /tmp/tactician.tmp.mELSQ8/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev
-# command              /tmp/tactician.tmp.mELSQ8/opam-root/bench/bin/tactician exec -- make -j9
-# exit-code            2
-# env-file             /tmp/opam-xxx-104/coq-tactician-stdlib-104-170a4c.env
-# output-file          /tmp/opam-xxx-104/coq-tactician-stdlib-104-170a4c.out
-### output ###
-# [...]
-# coqc theories/Bool/IfProp.v
-# coqc theories/Numbers/DecimalFacts.v
-# coqc theories/Sets/Ensembles.v
-# coqc plugins/funind/FunInd.v
-# coqc theories/Numbers/AltBinNotations.v
-# File "./theories/Logic/Hurkens.v", line 439, characters 0-12:
-# Error: Anomaly "Uncaught exception Not_found."
-# Please report at http://coq.inria.fr/bugs/.
-# 
-# make: *** [Makefile:66: theories/Logic/Hurkens.vo] Error 129
-# make: *** Waiting for unfinished jobs....
-# coqc theories/Sets/Relations_1_facts.v
-
-(((pid 104) (thread_id 0)) "2025-05-19 04:27:15.388416218Z"
- "Shutdown forced." ())
-Abnormal exit code for build worker on host 6facd2da6db8. Code: 1
+[NOTE] Package coq-tactician-stdlib is already installed (current version is 8.11.dev).

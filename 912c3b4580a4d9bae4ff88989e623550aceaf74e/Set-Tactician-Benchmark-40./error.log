@@ -2,10 +2,71 @@
 
 ------------------ Benchmark terminated -----------------------
 
-Fatal benchmarking error: (b59cf0fc-099c-34a2-84ce-ebfd8dbd0adc
- (monitor.ml.Error ("OpamStd.OpamSys.Exit(31)")
-  ("Raised at Base__Result.ok_exn in file \"src/result.ml\", line 251, characters 17-26"
-   "Called from Async_kernel__Deferred1.M.map.(fun) in file \"src/deferred1.ml\", line 17, characters 40-45"
+Fatal benchmarking error: (41b2e158-5660-3450-222b-236c88ab911e
+ (monitor.ml.Error
+  (Invalid_argument
+   "String.chop_suffix_exn \"/tmp/tactician.tmp.Zsy9v3/opam-root/bench/bin/coqc\" \"lib/coq-tactician/coqc.real\"")
+  ("Raised at Stdlib.invalid_arg in file \"stdlib.ml\", line 30, characters 20-45"
+   "Called from Dune__exe__Main.Cmd_worker.T.Functions.make_process.(fun) in file \"src/benchmark/main.ml\", line 170, characters 10-81"
+   "Called from Async_kernel__Deferred0.bind.(fun) in file \"src/deferred0.ml\", line 54, characters 64-69"
    "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 180, characters 6-47")))
-Fatal benchmarking error: Initial build did not fully complete
-Fatal benchmarking error: Abnormal exit code for build worker on host 6facd2da6db8. Code: 1
+Fatal benchmarking error: (16bdbbe2-484b-32a5-78b9-94e8f7b9f846
+ (monitor.ml.Error
+  (Invalid_argument
+   "String.chop_suffix_exn \"/tmp/tactician.tmp.Zsy9v3/opam-root/bench/bin/coqc\" \"lib/coq-tactician/coqc.real\"")
+  ("Raised at Stdlib.invalid_arg in file \"stdlib.ml\", line 30, characters 20-45"
+   "Called from Dune__exe__Main.Cmd_worker.T.Functions.make_process.(fun) in file \"src/benchmark/main.ml\", line 170, characters 10-81"
+   "Called from Async_kernel__Deferred0.bind.(fun) in file \"src/deferred0.ml\", line 54, characters 64-69"
+   "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 180, characters 6-47")))
+Fatal benchmarking error: (7125866f-fed3-399a-e639-c05feb03ad76
+ (monitor.ml.Error
+  (Invalid_argument
+   "String.chop_suffix_exn \"/tmp/tactician.tmp.Zsy9v3/opam-root/bench/bin/coqc\" \"lib/coq-tactician/coqc.real\"")
+  ("Raised at Stdlib.invalid_arg in file \"stdlib.ml\", line 30, characters 20-45"
+   "Called from Dune__exe__Main.Cmd_worker.T.Functions.make_process.(fun) in file \"src/benchmark/main.ml\", line 170, characters 10-81"
+   "Called from Async_kernel__Deferred0.bind.(fun) in file \"src/deferred0.ml\", line 54, characters 64-69"
+   "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 180, characters 6-47")))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 33813)))
+ (rpc_name rpc_parallel_piped_1) (rpc_version 0))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 40797)))
+ (rpc_name rpc_parallel_plain_0) (rpc_version 0))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 43411)))
+ (rpc_name rpc_parallel_plain_0) (rpc_version 0))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 37655)))
+ (rpc_name rpc_parallel_piped_1) (rpc_version 0))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 39569)))
+ (rpc_name rpc_parallel_plain_0) (rpc_version 0))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 43021)))
+ (rpc_name rpc_parallel_plain_0) (rpc_version 0))
+Non-fatal benchmarking error: Coq process ended abruptly. Invocation: (cd /tmp/tactician.tmp.Zsy9v3/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev && /tmp/tactician.tmp.Zsy9v3/opam-root/bench/bin/coqc /tmp/tactician.tmp.Zsy9v3/opam-root/bench/bin/coqc -q -I /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician -R /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record -l /tmp/tactician.tmp.Zsy9v3/opam-root/bench/share/coq-tactician/plugins/zzz-benchmark/Injections.v -q -coqlib . -I /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician -R /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record plugins/nsatz/Nsatz.v -l /tmp/tactician.tmp.Zsy9v3/BenchParams.v)
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 36947)))
+ (rpc_name rpc_parallel_piped_1) (rpc_version 0))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 43359)))
+ (rpc_name rpc_parallel_plain_0) (rpc_version 0))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 38315)))
+ (rpc_name rpc_parallel_plain_0) (rpc_version 0))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 35151)))
+ (rpc_name rpc_parallel_plain_0) (rpc_version 0))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 34277)))
+ (rpc_name rpc_parallel_plain_0) (rpc_version 0))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 37301)))
+ (rpc_name rpc_parallel_plain_0) (rpc_version 0))
+Non-fatal benchmarking error: ((rpc_error (Connection_closed (Rpc.Connection.close)))
+ (connection_description ("Client connected via TCP" (6facd2da6db8 36119)))
+ (rpc_name rpc_parallel_plain_0) (rpc_version 0))
+Non-fatal benchmarking error: ("Coq process ended abruptly. Invocation: (cd /tmp/tactician.tmp.Zsy9v3/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev && /tmp/tactician.tmp.Zsy9v3/opam-root/bench/bin/coqc /tmp/tactician.tmp.Zsy9v3/opam-root/bench/bin/coqc -q -I /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician -R /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record -l /tmp/tactician.tmp.Zsy9v3/opam-root/bench/share/coq-tactician/plugins/zzz-benchmark/Injections.v -q -coqlib . -I /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician -R /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record plugins/setoid_ring/Rings_R.v -l /tmp/tactician.tmp.Zsy9v3/BenchParams.v)"
+ "Abnormal exit code for command worker: job1 with prefix . Code: 1")
+Non-fatal benchmarking error: ("Coq process ended abruptly. Invocation: (cd /tmp/tactician.tmp.Zsy9v3/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev && /tmp/tactician.tmp.Zsy9v3/opam-root/bench/bin/coqc /tmp/tactician.tmp.Zsy9v3/opam-root/bench/bin/coqc -q -I /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician -R /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record -l /tmp/tactician.tmp.Zsy9v3/opam-root/bench/share/coq-tactician/plugins/zzz-benchmark/Injections.v -q -coqlib . -I /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician -R /tmp/tactician.tmp.Zsy9v3/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record theories/Reals/NewtonInt.v -l /tmp/tactician.tmp.Zsy9v3/BenchParams.v)"
+ "Abnormal exit code for command worker: job15 with prefix . Code: 1")
