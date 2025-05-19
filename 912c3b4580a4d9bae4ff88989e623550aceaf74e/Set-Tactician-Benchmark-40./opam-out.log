@@ -2,8 +2,8 @@ Proceed? [y/n] y
 Checking for available remotes: rsync and local, git, mercurial, darcs. Perfect!
 
 <><> Fetching repository information ><><><><><><><><><><><><><><><><><><><><><>
-[custom-archive] Initialised
-[coq-core-dev] Initialised
 [coq-extra-dev] Initialised
+[coq-core-dev] Initialised
+[custom-archive] Initialised
 [coq-released] Initialised
 [default] Initialised
