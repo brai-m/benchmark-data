@@ -1,0 +1,96 @@
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_calc.tan_PI	40	4.771515	427	176	0.4.5.0	synth with cache (only 1: unfold tan; only 1: rewrite sin_PI; only 1: unfold Rminus, Rdiv; only 1: auto with real).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rpower.P_Rmin	40	0.987289	174	49	0.3.0.1.1	synth with cache (only 1: intros; only 1: unfold Rmin; only 1: case (Rle_dec x y); only 1: auto with real; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.psos_r1b	40	42.404980	8713	1303
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Exp_prop.E1_cvg	40	41.708708	12500	3925
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rgeom.distance_refl	40	41.999495	8774	2867
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.psos_r1	40	7.551342	137	35	2.4.0	synth with cache (only 1: intros x y H; only 1: setoid_rewrite H; only 1: cring).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis4.derivable_pt_inv	40	42.579344	24962	3071
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_reg.continuity_sin	40	42.156145	15280	3853
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_calc.sin_3PI2	40	42.006612	10160	2343
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo1.CVN_R_cos	40	42.280186	56064	3688
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_def.exp_cof_no_R0	40	8.331687	1906	352	2.6.0.6.0	synth with cache (only 1: intro; only 1: apply Rlt_dichotomy_converse; only 1: right; only 1: apply Rinv_0_lt_compat; only 1: apply INR_fact_lt_0).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Exp_prop.exp_form	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Exp_prop.div2_double	40	0.249618	2	2	0.0	synth with cache (only 1: intros a; only 1: apply Nat.div2_double).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Exp_prop.div2_S_double	40	0.299134	3	2	1.0	synth with cache (only 1: intro; only 1: apply Nat.div2_succ_double).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rgeom.distance_symm	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Cos_plus.Majxy_cv_R0	40	43.691189	15474	4692
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Cos_rel.cos_plus_form	40	42.992378	15395	2615
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_alt.pre_sin_bound	40	44.433563	18368	2705
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.nsatzR_diff	40
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.P0Z_correct	40	3.050673	55	15	8	synth with cache (only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Sqrt_reg.sqrt_var_maj	40	44.049797	46221	4231
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Exp_prop.div2_not_R0	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.R_sqrt.sqrt_pos	40	43.641451	30646	5114
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_def.exist_exp	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_def.pow_i	40	7.166255	3051	349	1.0.0.1.2.13.6	synth with cache (only 1: intro; only 1: intros [| n]; only 1: simpl; only 1: auto with real; only 1: simpl; only 1: rewrite Rmult_0_l; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rsqrt_def.dicho_comp	40	43.519246	14010	3823
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_fun.Alembert_exp	40	43.824382	14028	4766
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Cos_rel.pow_sqr	40	44.523352	16181	2118
+coq-tactician-stdlib.8.11.dev	Coq.Reals.MVT.MVT	40	44.443843	36171	3618
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.Rext	40
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.Rset	40	0.526278	9	3	1	synth with cache (only 1: apply ring_setoid).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_alt.pre_cos_bound	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Cos_plus.reste1_maj	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Sqrt_reg.sqrt_continuity_pt_R1	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.R_sqrt.sqrt_positivity	40	42.501474	13295	3508
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis3.derivable_pt_lim_div	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.SeqSeries.sum_maj1	40	43.005145	21014	5168
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_def.exist_exp0	40	43.601672	26154	4430
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rsqrt_def.dicho_lb_growing	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtopology.interior_P1	40	42.867714	62278	5766
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtopology.interior_P2	40	0.066917	5	3	1.1.0	synth with cache (only 1: unfold interior; only 1: intros; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Cos_rel.A1_cvg	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis2.formule	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.MVT.MVT_cor1	40
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.Rtheory	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rprod.prod_SO_split	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.R_sqrt.sqrt_sqrt	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Cauchy_prod.sum_N_predN	40	0.679284	110	66	0.4.0.0.0	synth with cache (only 1: intros; only 1: induction N as [| N HrecN]; only 1: elim (Nat.lt_irrefl _ H); only 1: simpl; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Alembert.Alembert_C1	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Cauchy_prod.sum_plus	40	0.105681	7	7	0.0.0.0.0.0.0	synth with cache (only 1: intros; only 1: induction N as [| N HrecN]; only 1: simpl; only 1: ring; only 1: do 3 rewrite tech5; only 1: rewrite HrecN; only 1: ring).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis1.continuity_pt_locally_ext	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.SeqSeries.Rseries_CV_comp	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_def.exp_0	40	43.929382	36590	4377
+coq-tactician-stdlib.8.11.dev	Coq.Reals.AltSeries.CV_ALT_step0	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rsqrt_def.dicho_up_decreasing	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtopology.adherence_P1	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtopology.included_trans	40	0.504608	62	17	0.7.0	synth with cache (only 1: intros; only 1: intros H'3; only 1: eauto).
+coq-tactician-stdlib.8.11.dev	Coq.Floats.FloatLemmas.shift_value	40	0.169383	7	2	3.2	synth with cache (only 1: simpl; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis2.maj_term1	40	44.120541	13560	3529
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rprod.prod_SO_pos	40	44.435410	26886	5377
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.PolZadd_correct	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Alembert.Alembert_C2	40	44.226421	10088	3629
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Cauchy_prod.cauchy_finite	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis1.continuity_pt_plus	40	44.862998	27039	6882
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_def.cosh_0	40	43.432670	17517	3546
+coq-tactician-stdlib.8.11.dev	Coq.Reals.AltSeries.CV_ALT_step1	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rsigma.Sigma.sigma_split	40	43.201327	26661	3089
+coq-tactician-stdlib.8.11.dev	Coq.Reals.SeqSeries.Cesaro	40
+coq-tactician-stdlib.8.11.dev	Coq.Floats.FloatLemmas.frexp_spec	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtopology.interior_P3	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtopology.complementary_P1	40	0.177926	6	3	0.0.3	synth with cache (only 1: intros; only 1: intros [y [H H0]]; only 1: contradiction).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis2.maj_term2	40	42.883479	9735	2007
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rprod.prod_SO_Rle	40
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.PolZmul_correct	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Binomial.pascal_step1	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Alembert.AlembertC3_step1	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis1.continuity_pt_opp	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rlimit.eps2_Rgt_R0	40	16.026774	8984	1459	1.2.2.21.0	synth with cache (only 1: intros n1 H'; only 1: unfold Rgt; only 1: apply Rmult_lt_0_compat; only 1: auto with real; only 1: auto with real).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rlimit.eps2	40	0.399737	155	42	0.0.0.0.8	synth with cache (only 1: intro; only 1: rewrite <- double; only 1: rewrite <- Rmult_assoc; only 1: apply Rinv_r_simpl_m; only 1: now apply not_0_IZR).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.PartSum.tech1	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_def.sinh_0	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rlimit.eps4	40	6.284791	3277	388	23.6	synth with cache (only 1: intros n; only 1: field).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rderiv.cont_deriv	40	46.865793	33918	5185
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rlimit.Rlt_eps2_eps	40	0.034204	2	2	0.0	synth with cache (only 1: intros; only 1: lra).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rlimit.Rlt_eps4_eps	40	0.110080	60	11	0.9	synth with cache (only 1: intros a Ha; only 1: lra).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.AltSeries.CV_ALT_step2	40
+coq-tactician-stdlib.8.11.dev	Coq.micromega.Fourier_util.Rlt_mult_inv_pos	40	1.288611	355	180	0.0.0.1.4	synth with cache (only 1: intros a b Ha Hb; only 1: apply Rmult_lt_0_compat; only 1: assumption; only 1: apply Rinv_0_lt_compat; only 1: assumption).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rsigma.Sigma.sigma_diff	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rsigma.Sigma.sigma_diff_neg	40	0.136168	11	11	0.1.0.0.0.0.0	synth with cache (only 1: intros low high k H1 H2; only 1: symmetry; only 1: symmetry; only 1: symmetry; only 1: symmetry; only 1: rewrite (sigma_split H1 H2); only 1: ring).
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtopology.adherence_P2	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis2.maj_term3	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rprod.fact_prodSO	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rprod.le_n_2n	40	0.760121	8	7	0.0.1.0.0.0.0	synth with cache (only 1: intro n; only 1: simpl; only 1: rewrite <- (Nat.add_0_r n); only 1: rewrite <- Nat.add_assoc; only 1: rewrite <- Nat.add_assoc; only 1: apply Nat.add_le_mono_l; only 1: apply Nat.le_0_l).
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.R_power_theory	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rcomplete.R_complete	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Binomial.pascal_step2	40

@@ -1,5 +1,0 @@
-(((pid 81575) (thread_id 0)) "2025-05-19 05:04:01.348770336Z"
- "Shutdown forced." ())
-(((pid 81592) (thread_id 0)) "2025-05-19 05:04:01.350005877Z"
- "Shutdown forced." ())
-Abnormal exit code for command worker: job1 with prefix . Code: 1Abnormal exit code for command worker: job15 with prefix . Code: 1
