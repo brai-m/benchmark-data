@@ -3,7 +3,7 @@ Checking for available remotes: rsync and local, git, mercurial, darcs. Perfect!
 
 <><> Fetching repository information ><><><><><><><><><><><><><><><><><><><><><>
 [coq-core-dev] Initialised
-[coq-extra-dev] Initialised
 [custom-archive] Initialised
+[coq-extra-dev] Initialised
 [coq-released] Initialised
 [default] Initialised
